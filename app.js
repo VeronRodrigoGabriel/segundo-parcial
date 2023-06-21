@@ -7,7 +7,7 @@ const path = require('path');
 const port = process.env.PORT||3000;
 const app = express();
 const {sequelize}= require("./database")
-// Middlewares
+
 // TODO: Implementar middlewares
 app.use(helmet());
 app.use(cors());
