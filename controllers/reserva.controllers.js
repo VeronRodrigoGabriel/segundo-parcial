@@ -1,4 +1,5 @@
 const ctrlReservas = {};
+const Reserva = require("../models/Reserva")
 
 // ==========================================
 //         Rutas para CRUD de reservas
@@ -9,5 +10,6 @@ const ctrlReservas = {};
 // Crear una reserva
 // Actualizar una reserva
 // Eliminar una reserva de forma lógica
+
 
 module.exports = ctrlReservas;
