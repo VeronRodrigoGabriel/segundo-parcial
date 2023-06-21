@@ -1,5 +1,5 @@
 // TODO: Crear modelo de datos de Reserva
-const {sequelize,DataType} = require("sequelize");
+const {sequelize,DataType} = require("../database");
 
 
 const Reserva = sequelize.define('reserva', {
