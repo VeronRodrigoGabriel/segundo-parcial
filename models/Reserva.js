@@ -2,7 +2,7 @@
 const {sequelize,DataType} = require("sequelize");
 
 
-const Reserva = sequelize.define('Usuario', {
+const Reserva = sequelize.define('reserva', {
     Nombre: {
         type: DataType.STRING,
         allownull: false
